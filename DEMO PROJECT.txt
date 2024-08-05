@@ -1,0 +1,71 @@
+PROJECT :  Simple Webpage
+Overview
+This project involves creating and modifying a simple HTML webpage. The goal is to learn basic Git operations like cloning a repository, creating a branch, making changes, and submitting a pull request.
+
+Prerequisites:
+Git installed on your machine
+GitHub account
+Instructions:
+1. Clone the Repository
+sh
+Copy code:
+git clone https://github.com/yourusername/demo-webpage.git
+This command clones the repository to your local machine.
+
+2. Navigate to the Project Directory
+sh
+Copy code
+cd demo-webpage
+Change to the project directory.
+
+3. Create a New Branch
+sh
+Copy code
+git checkout -b feature-branch
+Create and switch to a new branch named feature-branch.
+
+4. Make Changes
+Create or modify the index.html file. For example, add the following content:
+
+html
+Copy code
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo Webpage</title>
+</head>
+<body>
+    <h1>Welcome to the Demo Webpage</h1>
+    <p>This is a simple HTML file for demo purposes.</p>
+</body>
+</html>
+5. Stage the Changes
+sh
+Copy code
+git add index.html
+Stage the changes made to index.html.
+
+6. Commit the Changes
+sh
+Copy code
+git commit -m "Add initial content to index.html"
+Commit the changes with a descriptive message.
+
+7. Push the Changes to the Remote Repository
+sh
+Copy code
+git push origin feature-branch
+Push the feature branch to the remote repository.
+
+8. Create a Pull Request
+Go to the repository on GitHub.
+Click on the "Pull Requests" tab.
+Click "New Pull Request."
+Select main as the base branch and feature-branch as the compare branch.
+Create the pull request with a detailed description of your changes.
+Conclusion
+This guide helps you understand the basics of Git operations and collaboration. If you have any questions, feel free to ask for assistance.
+
+This documentation is short and covers the essential steps for contributing to the demo project.
